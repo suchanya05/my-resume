@@ -10,3 +10,7 @@
 .body-block{
     background-color: lightgrey;
 }
+.container-bg{
+    background-color: white;
+    padding: 20px;
+}
