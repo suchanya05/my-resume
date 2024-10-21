@@ -1,16 +1,47 @@
 .profile{
-    width: 120px;
+    width: 250px;
+    border-start-start-radius: 10px;
+    border-end-start-radius: 10px;
     height: inherit;
 }
 
 .header{
-    font-size: 40px;
+    font-size: 30px;
+}
+.Subtopic{
+    font-size: 24px;
+    margin-bottom: -5px;
+}
+.text-content{
+    font-size: 16px;
+    padding-right: 10px;
 }
 
 .body-block{
     background-color: lightgrey;
 }
-.container-bg{
-    background-color: white;
+.container-bg {
+    /* background-color: white; */
+    margin-top: 50px;
+    background-image: url('./bg1.jpg');
     padding: 20px;
 }
+
+.resume-contain {
+    margin-top: 100px;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ตัวเลือก: เงาเบา */
+}
+.resume-contain1 {
+    margin-top: 200px;
+    width: 50%;
+    justify-content: left;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ตัวเลือก: เงาเบา */
+}
+
+.row {
+    width: 100%;/* เพิ่ม padding ถ้าต้องการ */
+}
+
