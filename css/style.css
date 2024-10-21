@@ -1,27 +1,31 @@
-.profile{
-    width: 250px;
-    border-start-start-radius: 10px;
-    border-end-start-radius: 10px;
-    height: inherit;
+.profile {
+    width: 100%; /* ให้รูปเต็มความกว้างคอลัมน์ */
+    max-width: 250px; /* จำกัดความกว้างสูงสุด */
+    /* border-start-start-radius: 10px;
+    border-end-start-radius: 10px; */
+    border-radius: 5px;
+    height: auto;
 }
 
-.header{
-    font-size: 30px;
+.header {
+    font-size: 2rem; /* ปรับขนาดฟอนต์ให้ responsive */
 }
-.Subtopic{
-    font-size: 24px;
+
+.Subtopic {
+    font-size: 1.5rem; /* ปรับขนาดฟอนต์ */
     margin-bottom: -5px;
 }
-.text-content{
-    font-size: 16px;
+
+.text-content {
+    font-size: 1rem; /* ปรับขนาดฟอนต์ */
     padding-right: 10px;
 }
 
-.body-block{
+.body-block {
     background-color: lightgrey;
 }
+
 .container-bg {
-    /* background-color: white; */
     margin-top: 50px;
     background-image: url('../bg1.jpg');
     padding: 20px;
@@ -29,19 +33,12 @@
 
 .resume-contain {
     margin-top: 100px;
-    width: 50%;
+    width: 100%;
+    max-width: 900px; /* จำกัดความกว้างสูงสุด */
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ตัวเลือก: เงาเบา */
-}
-.resume-contain1 {
-    margin-top: 200px;
-    width: 50%;
-    justify-content: left;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ตัวเลือก: เงาเบา */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .row {
-    width: 100%;/* เพิ่ม padding ถ้าต้องการ */
+    margin: 0; /* ลบ padding ถ้าไม่ต้องการ */
 }
-
