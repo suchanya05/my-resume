@@ -1,0 +1,12 @@
+.profile{
+    width: 120px;
+    height: inherit;
+}
+
+.header{
+    font-size: 40px;
+}
+
+.body-block{
+    background-color: lightgrey;
+}
