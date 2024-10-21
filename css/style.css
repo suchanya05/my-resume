@@ -23,7 +23,7 @@
 .container-bg {
     /* background-color: white; */
     margin-top: 50px;
-    background-image: url('./bg1.jpg');
+    background-image: url('../bg1.jpg');
     padding: 20px;
 }
 
